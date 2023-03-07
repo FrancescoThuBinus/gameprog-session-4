@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
     // Start is called before the first frame update
 public class GantiScene : MonoBehaviour
     {
-        public void ChangeMyScene(string namaScene)
+        public void ChangeMyScene(string MainMenu)
         {
-            SceneManager.LoadScene(namaScene);
+            SceneManager.LoadScene(MainMenu);
         }
     }
 
